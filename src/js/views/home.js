@@ -1,14 +1,24 @@
 import React from "react";
-import rigoImage from "../../img/rigo-baby.jpg";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../../styles/home.css";
-import { Characters } from "./Characters";
-import { Character } from "./Character";
+import {Characters} from "./characters.js"
+import {Planets} from "./planets.js"
+import {Vehicles} from "./vehicles.js"
 
 export const Home = () => {
 	return (
-	<div>
-		<Characters />
-		<h1><strong>Planets</strong></h1>
-	</div>
-	)
+	<div className="text-center mt-5">
+		<h1>Character</h1>
+		<div className = "scroll">
+			<Characters />
+		</div>
+		<h1>Planets</h1>
+		<div className = "scroll">
+			<Planets />
+		</div>
+		<h1>Vehicles</h1>
+		<div className = "scroll">
+			<Vehicles />
+		</div>
+	</div> )
 };

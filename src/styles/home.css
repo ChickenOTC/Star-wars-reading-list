@@ -1,0 +1,31 @@
+body{
+    background-image: url("https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202102/MIT-Dwarf-Halo-01-press_0.jpg?itok=d7PtSGnA");
+    background-size: cover;
+}
+img{
+    margin: 20px;
+}
+.container{
+    margin-left: 300px;
+    border-style: solid;
+    border-color: White;
+    text-align: center;
+}
+.toggle{
+    margin-right: 100px;
+}
+.scroll{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    height: 50%;
+    color: white;
+}
+.heart{
+    float: right;
+    color: red;
+}
+li{
+    color: white;
+}
